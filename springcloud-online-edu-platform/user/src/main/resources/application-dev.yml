@@ -1,0 +1,26 @@
+server:
+  port: 30001 # 端口
+
+spring:
+  application:
+    name: userService # 服务名称
+  main:
+    allow-circular-references: true
+
+# springdoc-openapi项目配置
+springdoc:
+  group-configs:
+    - group: 'default'
+      display-name: 'default'
+      paths-to-match: '/**'
+      packages-to-scan: com.jh.education.user.controller
+
+JWTSigner: 123456
+
+tencent:
+  secret-id:
+  secret-key:
+  sms:
+    sdk-app-id:
+    sign-name:
+    region:
