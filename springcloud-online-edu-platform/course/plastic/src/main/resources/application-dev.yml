@@ -1,0 +1,14 @@
+server:
+  port: 30003
+spring:
+  main:
+    allow-circular-references: true
+  application:
+    name: coursePlasticService # 服务名称
+
+springdoc:
+  group-configs:
+    - group: 'default'
+      display-name: 'default'
+      paths-to-match: '/**'
+      packages-to-scan: com.jh.education.course.plastic.controller

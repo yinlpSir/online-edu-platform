@@ -1,0 +1,42 @@
+server:
+  port: 30000 # 网关端口
+spring:
+  application:
+    name: gateway # 服务名称
+  cloud:
+    nacos:
+      server-addr: 172.20.10.4:8848 # nacos地址
+      discovery:
+        namespace: 3cc2bfec-8b87-45dc-a21c-6707ca06a90a # 命名空间，填ID
+    gateway:
+      routes: # 网关路由配置
+        - id: user-service # 路由id，自定义，只要唯一即可
+#          uri: http://localhost:30001
+          uri: lb://userService # 路由的目标地址 lb就是负载均衡，后面跟服务名称
+          predicates: # 路由断言，也就是判断请求是否符合路由规则的条件
+            - Path=/user/** # 这个是按照路径匹配，只要以/user/开头就符合要求
+
+        - id: course-info-service
+          uri: lb://courseInfoService
+          predicates:
+            - Path=/course/info/**
+
+        - id: order-service
+          uri: lb://orderService
+          predicates:
+            - Path=/order/**
+
+        - id: course-plastic-service
+          uri: lb://coursePlasticService
+          predicates:
+            - Path=/course/plastic/**
+
+        - id: class-info-service
+          uri: lb://classInfoService
+          predicates:
+            - Path=/course/class/**
+
+        - id: live-service
+          uri: lb://liveService
+          predicates:
+            - Path=/live/**

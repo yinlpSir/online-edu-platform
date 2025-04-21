@@ -1,0 +1,20 @@
+server:
+  port: 30006
+
+spring:
+  main:
+    allow-circular-references: true
+  application:
+    name: liveService # 服务名称
+
+# springdoc-openapi项目配置
+springdoc:
+  group-configs:
+    - group: 'default'
+      display-name: 'default'
+      paths-to-match: '/**'
+      packages-to-scan: com.jh.education.live.controller
+
+live:
+  openID:
+  open-token:

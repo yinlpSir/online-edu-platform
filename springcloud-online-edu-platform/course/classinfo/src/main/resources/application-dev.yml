@@ -1,0 +1,18 @@
+server:
+  port: 30004
+
+spring:
+  main:
+    allow-circular-references: true
+  application:
+    name: classInfoService # 服务名称
+
+# springdoc-openapi项目配置
+springdoc:
+  #  swagger-ui:
+  #    path: /swagger-ui.html
+  group-configs:
+    - group: 'default'
+      display-name: 'default'
+      paths-to-match: '/**'
+      packages-to-scan: com.jh.education.course.classinfo.controller

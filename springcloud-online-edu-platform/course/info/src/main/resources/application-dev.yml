@@ -1,0 +1,22 @@
+server:
+  port: 30002
+spring:
+  main:
+    allow-circular-references: true
+  application:
+    name: courseInfoService # 服务名称
+
+springdoc:
+  group-configs:
+    - group: 'default'
+      display-name: 'default'
+      paths-to-match: '/**'
+      packages-to-scan: com.jh.education.course.info.controller
+
+alipay:
+  private-key:
+  alipay-public-key:
+  app-id:
+  gateway-url:
+  return-url:
+  notify-url:
