@@ -1,0 +1,81 @@
+设计参数：
+	主要颜色：D6E2FC rgb(214,226,252) rgb(212,206,255)
+	已购：7FA6F8
+	价格：7FA6F8
+
+活动状态的字体颜色：
+悬浮字体颜色：rgb(127,166,248)
+按钮颜色：rgb(214,202,250)
+
+主要参考网站：
+	http://www.sparke.cn/ 星火
+	https://study.163.com/ 网易云课堂
+	https://ke.qq.com/ 腾讯课堂
+	https://www.icourse163.org/ 中国大学生慕课
+
+/**
+        flex layout:
+            justify-content 主轴的对齐方式
+				left
+				center
+				right
+				space-evenly 
+				space-between 
+				space-around 
+            align-items 设置交叉轴上子元素的对齐方式
+				flex-start 顶部对齐
+				flex-end 底部对齐
+				center 垂直居中
+				stretch 没设定高度的子元素将其拉伸直至将整个空间填满
+     */
+
+课程名字限制45个字符
+签名限制字符：26
+用户名长度限制
+
+width:1300px;
+
+
+
+
+1、答案字段如何存储
+	富文本编辑器
+
+2、视频如何防止拖拽进度条和脚本
+	防止用户拖拽进度条
+	防脚本开进度或快进
+
+
+3、如何制作类似于导航栏上的头像效果：当鼠标悬浮到头像div，则头像div下方出现个div用以显示用户的基本信息，
+当鼠标移动到显示用户基本信息的div上，div不会消失,类似于下拉菜单的效果
+
+
+css transform 属性
+	transform:translateY(20px)
+	https://www.w3school.com.cn/cssref/pr_transform.asp
+
+css transition过渡效果
+	transition: all/none/property , times , linear/ease/ease-in/ease-out/ease-in-out,transitionDelayStartTime;
+	c语言中文网：http://c.biancheng.net/css3/transition.html
+
+vue.js Transition组件 : https://cn.vuejs.org/guide/built-ins/transition.html#transition-between-components
+
+css 动画animation
+	animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-direction animation-fill-mode animation-play-state;
+	http://c.biancheng.net/css3/animation.html
+
+资源：
+	10个优秀纯CSS动画推荐：https://www.weixiaolive.com/post/4aa3416f.html
+
+	
+
+Object.assign()
+
+toRef() toRefs()
+toRaw() markRaw()
+
+
+
+问题：
+	1、FormData如何存入对象数组。
+		问题出现场景：添加课程想一并将 课 也上传上去，课 是一个对象数组。
