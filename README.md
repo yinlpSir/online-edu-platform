@@ -1,4 +1,4 @@
-![15](https://github.com/user-attachments/assets/c1846615-abab-4234-94ed-570298b86e5a)# online-edu-platform
+# online-edu-platform
 基于Spring Boot 3 + Spring Cloud + Spring Security 6 + Vue3 + Element Plus的在线教育平台。
 
 ### 项目介绍
@@ -33,20 +33,42 @@
         <td><img width="982" alt="5" src="https://github.com/user-attachments/assets/d0b9c2e5-580b-4f90-9697-e70a88690356" /></td>
         <td><img width="982" alt="6" src="https://github.com/user-attachments/assets/3a5f3cd1-8adc-4ef2-9bd9-550c238e3d37"/></td>
     </tr>
-	  <tr>
         <td><img width="970" alt="7" src="https://github.com/user-attachments/assets/8ecbd964-53fd-4dbe-a65e-79ccead83b60" /></td>
+	<td><img width="982" alt="8" src="https://github.com/user-attachments/assets/273adcf4-6298-4e71-a9b7-1bf90ad1fa61"/></td>
     </tr>	 
-
-![8](https://github.com/user-attachments/assets/273adcf4-6298-4e71-a9b7-1bf90ad1fa61)
-![9](https://github.com/user-attachments/assets/3bc0d3ab-9757-49b9-9098-bf224e8c3907)
-![10](https://github.com/user-attachments/assets/791eb1d3-5142-4253-ab98-3d96b80ff319)
-![11](https://github.com/user-attachments/assets/fffaee93-2dcb-4627-a7f7-88f2ce241e71)
-![12](https://github.com/user-attachments/assets/feba1994-044f-49ce-9546-57c3cfa3b997)
-![13](https://github.com/user-attachments/assets/08bd3a30-533c-49ac-a319-7fe4ded7a996)
-![14](https://github.com/user-attachments/assets/d41e5020-5386-4651-9e8d-b47fdce9905d)
-![15](https://github.com/user-attachments/assets/8b4bc4fb-466e-4131-95cb-f9f2dd4e897a)
-![16](https://github.com/user-attachments/assets/f84db18b-c85f-4866-84f2-5ac925e212ea)
-![17](https://github.com/user-attachments/assets/0d73a79a-e8c5-4a0d-ac6e-ee1ef8eee25d)
-
-
+    </tr>
+        <td><img width="970" alt="9" src="https://github.com/user-attachments/assets/3bc0d3ab-9757-49b9-9098-bf224e8c3907" /></td>
+	<td><img width="982" alt="10" src="https://github.com/user-attachments/assets/791eb1d3-5142-4253-ab98-3d96b80ff319"/></td>
+    </tr>
+    </tr>
+        <td><img width="970" alt="11" src="https://github.com/user-attachments/assets/fffaee93-2dcb-4627-a7f7-88f2ce241e71" /></td>
+	<td><img width="982" alt="12" src="https://github.com/user-attachments/assets/feba1994-044f-49ce-9546-57c3cfa3b997"/></td>
+    </tr>	 
+    </tr>
+        <td><img width="970" alt="13" src="https://github.com/user-attachments/assets/08bd3a30-533c-49ac-a319-7fe4ded7a996" /></td>
+	<td><img width="982" alt="14" src="https://github.com/user-attachments/assets/d41e5020-5386-4651-9e8d-b47fdce9905d"/></td>
+    </tr>
+    </tr>
+        <td><img width="970" alt="15" src="https://github.com/user-attachments/assets/8b4bc4fb-466e-4131-95cb-f9f2dd4e897a" /></td>
+	<td><img width="982" alt="16" src="https://github.com/user-attachments/assets/f84db18b-c85f-4866-84f2-5ac925e212ea"/></td>
+    </tr>
+    </tr>
+        <td><img width="970" alt="17" src="https://github.com/user-attachments/assets/0d73a79a-e8c5-4a0d-ac6e-ee1ef8eee25d" /></td>
+	<td><img width="982" alt="18" src="https://github.com/user-attachments/assets/2a6c16f7-97f5-423b-bdc4-7263e01dde6e"/></td>
+    </tr>
+    </tr>
+        <td><img width="970" alt="19" src="https://github.com/user-attachments/assets/59a661cc-526b-4398-8013-f7915e23e73c" /></td>
+	<td><img width="982" alt="20" src="https://github.com/user-attachments/assets/bb14c3cf-c3d6-438f-88f5-47c72d1e014f"/></td>
+    </tr>
+    </tr>
+        <td><img width="970" alt="21" src="https://github.com/user-attachments/assets/24f31754-2105-4cee-97a9-4df02e577441" /></td>
+	<td><img width="982" alt="22" src="https://github.com/user-attachments/assets/f26c43be-2951-4d14-ab11-12471687a230"/></td>
+    </tr>
+    </tr>
+        <td><img width="970" alt="23" src="https://github.com/user-attachments/assets/e6fe7201-28c0-4cf7-8b40-8fa169c5f590" /></td>
+	<td><img width="982" alt="24" src="https://github.com/user-attachments/assets/655716da-1db7-4481-b8af-d78972db5f51"/></td>
+    </tr>
+    </tr>
+        <td><img width="970" alt="25" src="https://github.com/user-attachments/assets/77c0bc8e-7ca7-43ca-a8dd-5cb06421e797" /></td>
+    </tr>
 </table>
